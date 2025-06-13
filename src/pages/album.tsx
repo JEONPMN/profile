@@ -20,7 +20,7 @@ const items = [
 ];
 
 export default function ImageGrid() {
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState<{ title: string; img: string } | null>(null);
 
   return (
     <div className="bg-gray-100 py-10 px-4">

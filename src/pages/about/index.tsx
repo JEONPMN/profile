@@ -118,7 +118,7 @@ export default function Home() {
                 <h3 className="font-semibold border-2 rounded-2xl border-[#171717] p-2 text-center">ABOUT ME</h3>
                 <p className="mt-2">
                   Born and raised in Phayao Province, studied junior high school and high school at FakKwan Wittayakhom School.
-                  At the bachelor's degree level, studied at Rajamangala University of Technology Thanyaburi.
+                  At the bachelor&apos;s degree level, studied at Rajamangala University of Technology Thanyaburi.
                 </p>
               </div>
 

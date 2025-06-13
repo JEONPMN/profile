@@ -1,9 +1,7 @@
 import * as React from "react";
 import Image from "next/image";
 import { Taviraj } from "next/font/google";
-import { Search, Plus, ArrowLeft, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 
 const taviraj = Taviraj({
   subsets: ["latin"],
@@ -21,7 +19,7 @@ export default function HomePage() {
         <div className="text-center lg:text-left lg:ml-20 max-w-xl z-10">
           <h1 className="text-4xl font-bold">MANASSANAN RATANACHAIWONG</h1>
           <p className="mt-4 text-sm">
-            My name is Paint. I was born in Phayao, Thailand, on July 12, 2005. I graduated with a Bachelor's Degree in Computer Engineering from Rajamangala University of Technology Thanyaburi. I enjoy reading, gaming, and love cats and Northern Thai food. I'm passionate about technology and committed to growing in this field.          
+            My name is Paint. I was born in Phayao, Thailand, on July 12, 2005. I graduated with a Bachelor&apos;s Degree in Computer Engineering from Rajamangala University of Technology Thanyaburi. I enjoy reading, gaming, and love cats and Northern Thai food. I&apos;m passionate about technology and committed to growing in this field.          
           </p>
         </div>
 
@@ -78,10 +76,10 @@ export default function HomePage() {
             <CardContent className="p-4">
               <h3 className="font-semibold text-emerald-800">Elemental Skill / Burst</h3>
               <p className="text-sm text-muted-foreground">
-                Elemental Skill: "Binding Vine Power"  Fires a special arrow that summons vines to wrap around enemies, slowing them.
+                Elemental Skill: &quot;Binding Vine Power&quot;  Fires a special arrow that summons vines to wrap around enemies, slowing them.
               </p>
               <p className="text-sm text-muted-foreground">
-                Elemental Burst: "Forest Oath"  Creates a force field that heals teammates and attacks enemies with sacred pollen.
+                Elemental Burst: &quot;Forest Oath&quot;  Creates a force field that heals teammates and attacks enemies with sacred pollen.
               </p>
             </CardContent>
           </Card>

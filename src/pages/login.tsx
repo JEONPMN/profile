@@ -32,7 +32,7 @@ export default function LoginPage() {
             <Input type="email" placeholder="Email" className="text-emerald-800 rounded-full px-5 py-3 bg-gray-100" />
             <Input type="password" placeholder="Password" className="text-emerald-800 rounded-full px-5 py-3 bg-gray-100" />
             <Button className="w-full rounded-full bg-green-700 hover:bg-green-800 text-white py-3">
-              Let's start!
+              Let&apos;s start!
             </Button>
           </div>
 
