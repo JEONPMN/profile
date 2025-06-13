@@ -35,10 +35,10 @@ export default function HomePage() {
               </SheetTrigger>
               <SheetContent side="left" className="w-[240px] bg-white text-black">
                 <div className="ml-4 flex flex-col gap-4 mt-10 text-base font-medium text-black">
-                  <Link href="/">Home</Link>
-                  <Link href="/about">About Me</Link>
-                  <Link href="/contact">Contacts</Link>
-                  <Link href="/login">Login</Link>
+                  <Link href="/">HOME</Link>
+                  <Link href="/about">ABOUT ME</Link>
+                  <Link href="/contact">ALBUM</Link>
+                  <Link href="/login">LOGIN</Link>
                 </div>
               </SheetContent>
             </Sheet>
@@ -53,7 +53,7 @@ export default function HomePage() {
 
           {/*Right: Desktop Right Menu (hidden on mobile) */}
           <div className="hidden sm:flex items-center gap-6 justify-end text-sm font-medium text-gray-900">
-            <Link href="/contact">CONTACTS</Link>
+            <Link href="/album">ALBUM</Link>
             <Link href="/login">LOGIN</Link>
             <Search className="h-5 w-5 cursor-pointer hover:text-gray-500 mt-1" />
           </div>
